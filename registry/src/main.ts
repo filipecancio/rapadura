@@ -6,4 +6,4 @@ app.get("/",(req,res)=>{
     return response.json({service: "Servico de registros"})
 })
 
-app.listen(8083)
+app.listen(8083);
